@@ -1,0 +1,74 @@
+:root {
+  --font-base: 'Montserrat', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-bg-dark: #0b0c10;
+  --color-light: #f3f2e7;
+  --color-accent: #ffaf67;
+  --color-secondary: #00bcd4;
+  --text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+
+  font-family: var(--font-base);
+  line-height: 1.6;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-dark);
+  background-image: 
+    radial-gradient(at 47% 33%, rgba(255, 255, 255, 0.08) 0%, transparent 60%),
+    radial-gradient(at 82% 65%, hsl(41.63, 62%, 85%) 0%, transparent 55%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-light);
+}
+
+/* Card styling - consistent glassmorphism look */
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(131, 180, 254, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Transparent Navbar */
+.transparent-navbar {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Buttons (Optional enhancement if you want global button style override) */
+button {
+  font-family: var(--font-base);
+  font-weight: 500;
+}
+
+/* Responsive container padding (optional) */
+.container {
+  padding: 0 1rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
