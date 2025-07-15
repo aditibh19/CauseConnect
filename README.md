@@ -1,80 +1,67 @@
-![image](https://github.com/design-sparx/crowdup/assets/26582923/001cd476-c753-4087-96a6-ee8c99fc3612)
+https://github.com/aditibh19/causeconnect/blob/main/public/home.png
 
-# Crowdfunding website project
+# CauseConnect
 
-[Online Demo](https://crowd-up.netlify.app/ "Online Demo")
+https://github.com/aditibh19/causeconnect/blob/main/public/home.png
 
-### About:
+## Empowering Change, Connecting Causes, Building Futures
 
-CrowdUp is a crowdfunding platform that helps you get funding for your personal projects, charities, and NGOs. Start a fundraiser and receive donations from individuals who care about your cause.
+**CauseConnect** is a platform that helps individuals and organizations start and manage impactful social campaigns. Join the movement to transform lives and build a better future.
 
-#### Available Pages
+## 🚀 Features
 
-1. Home
-2. How it works
-3. Campaigns
-4. Campaign details
-5. Create campaigns
-6. Dashboard
+- 🎯 Launch and manage fundraising campaigns easily
+- 🔍 Discover causes based on your interests
+- 📊 Transparent analytics for campaign performance
+- 🧩 Connect investors and donors with social impact campaigns
+- 👥 Dashboard for campaign owners
+- 🔐 User authentication and profile management
 
-### Tech Stack:
+## 🖼️ Preview
 
-- embla-carousel-react v7 - https://www.embla-carousel.com/get-started/
-- mantine v6 - https://mantine.dev/pages/getting-started/
-- react v18 - https://reactjs.org/docs/getting-started.html
-- tabler-icons v2- https://react-icons.github.io/react-icons/
+> “Empowering Change, Connecting Causes, Building Futures”
 
-**Dev dependencies**
+CauseConnect is built to inspire and enable. Whether you’re starting a campaign or looking to support one, the platform is intuitive, beautiful, and impactful.
 
-- eslint v8 - https://eslint.org/docs/latest/user-guide/getting-started- 
-- vite v4 - https://vitejs.dev/
+## 🛠️ Tech Stack
 
-### Software
+- **Frontend:** React, Mantine UI, TypeScript
+- **Backend:** Node.js, Express
+- **Database:** MongoDB / Firebase Firestore (based on environment)
+- **Authentication:** Firebase Auth
+- **Hosting:** Vercel / Netlify (optional)
 
-Before proceeding, please ensure you have the following software installed on your computer.
+## 📦 Getting Started
 
-- Node
-- Yarn (optional but recommended)
-- Git command line tools
+### 1. Clone the repository
 
-### Useful links
+```bash
+git clone https://github.com/aditibh19/CauseConnect.git
+cd CauseConnect
+```
 
-- Download Git cli -
-    - Windows: https://git-scm.com/download/windows
-    - Mac: https://git-scm.com/download/mac
-- Download Node - https://nodejs.org/en/
-- Download Yarn cli - https://yarnpkg.com/lang/en/docs/install/
-- Download VSCode - https://code.visualstudio.com/
+### 2. Install dependencies
 
-### Getting started
+```bash
+cd client
+npm install
+```
 
-Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
+### 3. Run the development server
 
-##### Download & Install Dependencies on your machine
+```bash
+npm run dev
+```
 
-Clone the repo to your machine
-`git clone <CloneURL>`
+> Make sure backend (if used) is running on its respective port.
 
-##### Launch the frontend
+## 👩‍💻 Author
 
-1. Open a new terminal window and navigate in your root folder
-   `cd <../root>`
-   `yarn install OR npm install`
-2. Run the start script
-   `yarn run start OR npm run start`
+**Aditi Bhalla**  
+[GitHub Profile](https://github.com/aditibh19)
 
-Your app should be running on: http://localhost:3000
+---
 
-### Versions
+## 🌍 Contributing
 
-v1.0
-
-- Default project implementation
-
-### Authors
-
-1. Kelvin Kiptum Kiprop - https://github.com/kelvink96
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/kelvink96ltd/flick-city/blob/master/LICENSE.md) file for details
+Feel free to fork this repo, suggest features, report issues, or submit pull requests to make CauseConnect better.
