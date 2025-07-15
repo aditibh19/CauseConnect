@@ -1,9 +1,7 @@
-https://github.com/aditibh19/causeconnect/blob/main/public/home.png
 
 # CauseConnect
 
-https://github.com/aditibh19/causeconnect/blob/main/public/home.png
-
+![Home Preview](https://raw.githubusercontent.com/aditibh19/causeconnect/main/public/home.png)
 ## Empowering Change, Connecting Causes, Building Futures
 
 **CauseConnect** is a platform that helps individuals and organizations start and manage impactful social campaigns. Join the movement to transform lives and build a better future.
