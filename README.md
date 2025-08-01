@@ -6,16 +6,16 @@
 
 **CauseConnect** is a platform that helps individuals and organizations start and manage impactful social campaigns. Join the movement to transform lives and build a better future.
 
-## 🚀 Features
+##  Features
 
-- 🎯 Launch and manage fundraising campaigns easily
-- 🔍 Discover causes based on your interests
-- 📊 Transparent analytics for campaign performance
-- 🧩 Connect investors and donors with social impact campaigns
-- 👥 Dashboard for campaign owners
-- 🔐 User authentication and profile management
+-  Launch and manage fundraising campaigns easily
+-  Discover causes based on your interests
+-  Transparent analytics for campaign performance
+-  Connect investors and donors with social impact campaigns
+-  Dashboard for campaign owners
+-  User authentication and profile management
 
-## 🖼️ Preview
+##  Preview
 
 > “Empowering Change, Connecting Causes, Building Futures”
 
@@ -29,7 +29,7 @@ CauseConnect is built to inspire and enable. Whether you’re starting a campaig
 - **Authentication:** Firebase Auth
 - **Hosting:** Vercel / Netlify (optional)
 
-## 📦 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -53,7 +53,7 @@ npm run dev
 
 > Make sure backend (if used) is running on its respective port.
 
-## 👩‍💻 Author
+##  Author
 
 **Aditi Bhalla**  
 [GitHub Profile](https://github.com/aditibh19)
